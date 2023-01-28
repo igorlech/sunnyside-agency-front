@@ -1,0 +1,62 @@
+.side-by-side-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media (max-width: 765px) {
+        grid-template-columns: 1fr;
+        overflow: hidden;
+    }
+}
+
+.side-by-side-picture .first {
+    grid-area: 1 / 2;
+
+    @media (max-width: 765px) {
+        grid-area: 1 / 1;
+    }
+}
+
+.side-by-side-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    @media (max-width: 765px) {
+        aspect-ratio: 0;
+    }
+}
+
+.side-by-side-desc {
+    grid-area: 1 / 1;
+
+    @media (max-width: 765px) {
+        grid-area: 2 / 1;
+    }
+}
+
+.side-by-side-learn-section {
+    display: grid;
+    place-content: center;
+}
+
+.side-by-side-about-cont {
+    max-width: 28rem;
+    padding: 1rem;
+
+    @media (max-width: 765px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin: var(--big-spacing) var(--medium-spacing);
+    }
+}
+
+.side-by-side-about-p {
+    @media (max-width: 765px) {
+        text-align: center;
+
+        margin: 0 var(--base-spacing);
+        margin-bottom: var(--big-spacing);
+    }
+}

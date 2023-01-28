@@ -1,0 +1,9 @@
+body {
+    font-family: var(--primary-font-family);
+    font-size: var(--body-font-size);
+    font-weight: var(--primary-font-weight);
+}
+.main-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}

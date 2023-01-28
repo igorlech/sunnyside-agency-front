@@ -1,0 +1,70 @@
+:root {
+    /* Colors */
+
+    --primary-soft-red-color: hsl(7, 99%, 70%);
+    --before-hover-red-color: hsl(7, 100%, 88%);
+    --primary-yellow-color: hsl(51, 100%, 49%);
+    --before-hover-yellow-color: hsl(51, 82%, 83%);
+    --primary-desaturated-cyan-color: hsl(167, 40%, 24%);
+    --primary-blue-color: hsl(198, 62%, 26%);
+    --primary-moderate-cyan-color: hsl(168, 34%, 41%);
+
+    --neutral-desaturated-blue-color: hsl(212, 27%, 19%);
+    --neutral-vd-greyish-blue-color: hsl(213, 9%, 39%);
+    --neutral-dark-grayish-blue-color: hsl(232, 10%, 55%);
+    --neutral-grayish-blue-color: hsl(210, 4%, 67%);
+    --neutral-white-color: hsl(0, 0%, 100%);
+    --lightblue: #6eceff;
+    --black: #000000;
+    --footer-color: #90d4c5;
+
+    /* Typography */
+
+    --primary-font-family: 'Barlow', sans-serif;
+    --secondary-font-family: 'Fraunces', serif;
+    --light-font-weight: 400;
+    --primary-font-weight: 600;
+    --secondary-font-weight: 700;
+    --secondary-font-weight-ext: 900;
+    --body-font-size-small: 16px;
+    --body-font-size-vw: clamp(16px, 2vw, 3vw)
+    --body-font-size: clamp(16px, 18px, 20px);
+    --large-font-size: clamp(16px, 2.5vw, 5rem);
+    --large-font-size-nc: 3rem;
+    --heading-font-size: clamp(16px, 5vw, 4rem);
+    --subheading-mobile-font-size: clamp(16px, 9vw, 4rem);
+    --subheading-mobile-font-size-nc: 2rem;
+    --heading-mobile-font-size: clamp(16px, 9vw, 4rem);
+
+    /* Additionals for typography */
+
+    --special-line-height: 3.5rem;
+    --extra-line-height: 4rem;
+    --contact-btn-font-size: clamp(15.5px, .9vw, 3rem);
+    --contact-btn-font-size-nc: 15px;
+
+    /* Spacing */
+
+    --extra-small-spacing: 0.3rem;
+    --small-spacing: 0.5rem;
+    --small-extra-spacing: 0.7rem;
+    --base-spacing: 1rem;
+    --middle-spacing: 1.5rem;
+    --medium-spacing: 2rem;
+    --big-spacing: 3rem;
+    --big-plus-spacing: 4rem;
+    --big-middle-spacing: 5rem;
+    --big-secondary-spacing: 10rem;
+    --extra-spacing: 15rem;
+
+    /* Border radius */
+
+    --base-border-radius: 2rem;
+    --profile-border-radius: 5rem;
+
+    /* Additionals */
+
+    --transition-duration: 0.5s;
+    --underline-moved: -6px;
+    --brand-underline-padding: 3.9rem;
+}

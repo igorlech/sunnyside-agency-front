@@ -1,0 +1,13 @@
+.stacked {
+    display: grid;
+}
+
+.stacked > * {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.text-image-brand-stacked {
+    width: 100%;
+    height: 100%;
+}

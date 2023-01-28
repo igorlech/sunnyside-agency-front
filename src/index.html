@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+            rel="stylesheet"
+        />
+
+        <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    </head>
+    <body>
+        <div class="main-wrapper">
+            <header>
+                <nav class="nav">
+                    <a href="/">
+                        <img src="./assets/logo.svg" alt="Sunnyside logo" class="nav-logo" />
+                    </a>
+                    <div class="nav-ul-container">
+                        <ul class="nav-ul">
+                            <li>
+                                <a href="/about">About</a>
+                            </li>
+                            <li>
+                                <a href="/services">Services</a>
+                            </li>
+                            <li>
+                                <a href="/projects">Projects</a>
+                            </li>
+                            <li>
+                                <a href="/contact" class="nav-contact-btn">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="nav-burger-menu">
+                        <div class="nav-burger-line" id="nav-anim-1"></div>
+                        <div class="nav-burger-line" id="nav-anim-2"></div>
+                        <div class="nav-burger-line" id="nav-anim-3"></div>
+                    </button>
+                </nav>
+            </header>
+            <main>
+                <section class="banner stacked">
+                    <picture class="banner-img">
+                        <source media="(max-width: 765px)" srcset="./assets/mobile/image-header.jpg" />
+                        <img src="./assets/desktop/image-header.jpg" alt="Banner" loading="lazy" />
+                    </picture>
+                    <div class="banner-content">
+                        <h1>We are creatives</h1>
+                        <img src="./assets/icon-arrow-down.svg" class="banner-arrow-down" />
+                    </div>
+                </section>
+                <section class="brand">
+                    <section>
+                        <figure class="side-by-side-grid">
+                            <picture class="side-by-side-picture first">
+                                <source media="(max-width: 765px)" srcset="./assets/mobile/image-transform.jpg" />
+                                <img
+                                    loading="lazy"
+                                    class="side-by-side-img learn-img"
+                                    src="./assets/desktop/image-transform.jpg"
+                                    alt="Image of an egg"
+                                />
+                            </picture>
+                            <figcaption class="side-by-side-desc side-by-side-learn-section">
+                                <div class="side-by-side-about-cont">
+                                    <h2>Transform your brand</h2>
+                                    <p class="side-by-side-about-p">
+                                        We are a full-service creative agency specializing in helping brands grow fast. Engage your clients
+                                        through compelling visuals that do most of the marketing for you.
+                                    </p>
+                                    <button class="btn btn-underline">Learn more</button>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </section>
+                    <section>
+                        <figure class="side-by-side-grid">
+                            <picture class="side-by-side-picture">
+                                <source media="(max-width: 765px)" srcset="./assets/mobile/image-stand-out.jpg" />
+                                <img
+                                    loading="lazy"
+                                    class="side-by-side-img learn-img"
+                                    src="./assets/desktop/image-stand-out.jpg"
+                                    alt="Image of a cup"
+                                />
+                            </picture>
+                            <figcaption class="side-by-side-learn-section">
+                                <div class="side-by-side-about-cont">
+                                    <h2>Stand out to the right audience</h2>
+                                    <p class="side-by-side-about-p">
+                                        Using a collaborative formula of designers, researchers, photographers, videographers, and
+                                        copywriters, we’ll build and extend your brand in digital places.
+                                    </p>
+                                    <button class="btn btn-underline red">Learn more</button>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </section>
+                    <section class="side-by-side-grid">
+                        <figure class="text-image-brand-stacked stacked">
+                            <picture class="side-by-side-picture caption-picture">
+                                <source media="(max-width: 765px)" srcset="./assets/mobile/image-graphic-design.jpg" />
+                                <img
+                                    loading="lazy"
+                                    class="side-by-side-img"
+                                    src="./assets/desktop/image-graphic-design.jpg"
+                                    alt="Image of a cherry"
+                                />
+                            </picture>
+                            <figcaption class="text-image-brand-caption">
+                                <h2 class="text-image-caption-heading">Graphic design</h2>
+                                <div class="text-image-caption-holder">
+                                    <p class="text-image-caption-p">
+                                        Great design makes you memorable. We deliver artwork that underscores your brand message and
+                                        captures potential clients’ attention.
+                                    </p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="text-image-brand-stacked stacked">
+                            <picture class="side-by-side-picture text-image-caption-picture">
+                                <source media="(max-width: 765px)" srcset="./assets/mobile/image-photography.jpg" />
+                                <img
+                                    loading="lazy"
+                                    class="side-by-side-img"
+                                    src="./assets/desktop/image-photography.jpg"
+                                    alt="Image of an orange"
+                                />
+                            </picture>
+                            <figcaption class="text-image-brand-caption">
+                                <h2 class="text-image-caption-heading">Photography</h2>
+                                <div class="text-image-caption-holder">
+                                    <p class="text-image-caption-p">
+                                        Increase your credibility by getting the most stunning, high-quality photos that improve your
+                                        business image.
+                                    </p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </section>
+                </section>
+                <section class="testimonials">
+                    <h3>Client testimonials</h2>
+                    <div class="testimonials-container">
+                        <figure class="testimonials-single">
+                            <img loading="lazy" src="./assets/image-emily.jpg" alt="Emily R." class="testimonials-img" />
+                            <figcaption>
+                                <p class="testimonials-quote">
+                                    We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were
+                                    always hit.
+                                </p>
+                                <div>
+                                    <h4>Emily R.</h4>
+                                    <p class="testimonials-occupation">Marketing Director</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="testimonials-single">
+                            <img loading="lazy" src="./assets/image-thomas.jpg" alt="Thomas S." class="testimonials-img" />
+                            <figcaption>
+                                <p class="testimonials-quote">
+                                    Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and
+                                    enjoyable experience.
+                                </p>
+                                <div>
+                                    <h4>Thomas S.</h4>
+                                    <p class="testimonials-occupation">Chief Operating Officer</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="testimonials-single">
+                            <img loading="lazy" src="./assets/image-jennie.jpg" alt="Jennie F." class="testimonials-img" />
+                            <figcaption>
+                                <p class="testimonials-quote">
+                                    Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+                                </p>
+                                <div>
+                                    <h4>Jennie F.</h4>
+                                    <p class="testimonials-occupation">Business Owner</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </section>
+                <section class="gallery">
+                    <figure>
+                        <picture>
+                            <source media="(max-width: 765px)" srcset="./assets/mobile/image-gallery-milkbottles.jpg" />
+                            <img
+                                loading="lazy"
+                                src="./assets/desktop/image-gallery-milkbottles.jpg"
+                                alt="Image of three bottles and clouds"
+                            />
+                        </picture>
+                    </figure>
+                    <figure>
+                        <picture>
+                            <source media="(max-width: 765px)" srcset="./assets/mobile/image-gallery-orange.jpg" />
+                            <img loading="lazy" src="./assets/desktop/image-gallery-orange.jpg" alt="Image of an orange in a bowl" />
+                        </picture>
+                    </figure>
+                    <figure>
+                        <picture>
+                            <source media="(max-width: 765px)" srcset="./assets/mobile/image-gallery-cone.jpg" />
+                            <img loading="lazy" src="./assets/desktop/image-gallery-cone.jpg" alt="Image of an icecream cone" />
+                        </picture>
+                    </figure>
+                    <figure>
+                        <picture>
+                            <source media="(max-width: 765px)" srcset="./assets/mobile/image-gallery-sugar-cubes.jpg" />
+                            <img loading="lazy" src="./assets/desktop/image-gallery-sugarcubes.jpg" alt="Image of sugar cubes" />
+                        </picture>
+                    </figure>
+                </section>
+            </main>
+            <footer>
+                <img loading="lazy" src="./assets/logo.svg" alt="Sunnyside logo" class="footer-logo" />
+                <ul class="footer-nav-cont">
+                    <li>
+                        <a href="/about">About</a>
+                    </li>
+                    <li>
+                        <a href="/services">Services</a>
+                    </li>
+                    <li>
+                        <a href="/projects">Projects</a>
+                    </li>
+                </ul>
+                <div>
+                    <ul class="footer-some-cont">
+                        <li>
+                            <a href="/facebook">
+                                <img loading="lazy" src="./assets/icon-facebook.svg" alt="Facebook logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/instagram">
+                                <img loading="lazy" src="./assets/icon-instagram.svg" alt="Instagram logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/twitter">
+                                <img loading="lazy" src="./assets/icon-twitter.svg" alt="Twitter logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/pinterest">
+                                <img loading="lazy" src="./assets/icon-pinterest.svg" alt="Pinterest logo" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
